@@ -40,3 +40,4 @@ class Post(Base):
     save = Column(String)
     compartilhar = Column(String)
     comentario = Column(String)
+    email = Column(String)

@@ -29,6 +29,7 @@ class PostCreate(BaseModel):
     save: str
     compartilhar: str
     comentario: str
+    email: str
         
     class Config:
         orm_mode = True
